@@ -21,5 +21,10 @@ pipeline {
                 }
             }
         }
+		stage('Finished') {
+			steps {
+				sh 'echo Finished .....'
+			}
+		}
     }
 }
